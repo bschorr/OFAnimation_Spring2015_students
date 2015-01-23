@@ -6,17 +6,19 @@
 ## Install
 Navigate terminal to the root folder of OpenFrameworks. Then follow the commands:
 
-	git clone https://github.com/bschorr/OFAnimation_Spring2015_students.git
+	git clone --recursive https://github.com/bschorr/OFAnimation_Spring2015_students.git
 	cd OFAnimation_Spring2015_students
-	git pull && git submodule init && git submodule update && git submodule status
+	git submodule foreach git pull origin master
 	git submodule foreach git checkout master
-	git submodule foreach git pull
+
+## Troubleshooting
+If you haven't ever set up an SSH key in your computer to work with GitHub, you may receive an error like ```Error: Permission denied (publickey)```. If this happens, follow the instructions on [this link](https://help.github.com/articles/generating-ssh-keys/) to set up an SSH key to work with GitHub.
 
 ## Update
 
-Every time you want to update all the repos, just do:
+Every time you want to update all the repos, you can navigate terminal to where this repo lives in your machine and do:
 
-	git submodule foreach git pull
+	git submodule foreach git pull origin master
 
 And check the projects of other students.
 
