@@ -28,3 +28,6 @@
 [submodule "MadhavTankha_OFanimation2015"]
 	path = MadhavTankha_OFanimation2015
 	url = https://github.com/Mtankha/MadhavTankha_OFanimation2015
+[submodule "LuobinWang_OFanimation2015"]
+	path = LuobinWang_OFanimation2015
+	url = https://github.com/peterobbin/LuobinWang_OFanimation2015
